@@ -21,3 +21,15 @@ function totalBeforeEid(income, bonus){
 }
 console.log(totalBeforeEid(income,bonus));
 
+// function expression
+console.log("here now i function expression.");
+let a =4 , b=5;
+const multi = function(a,b){ return a*b;};
+
+console.log(multi(a,b));
+
+
+// ARROW function 
+
+const add =(a,b) => a+b;
+console.log(add(a,b));
