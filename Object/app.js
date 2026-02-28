@@ -85,7 +85,15 @@ const myObj = {
 
 console.log("Car number 2 is : "+myObj.myCars.car2);
 
-// 
+// display object
+const person1 = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+let text = person1;
+console.log(text);
 
 
 
