@@ -154,3 +154,49 @@ console.log(length);
     console.log(result);
 }
 
+// here in string change or replace type bulid-in function
+
+{
+    console.log("Using Replace.")
+    let url ="hello  world!!!";
+    console.log("Current: "+url)
+    console.log("Change: "+url.replace("!","?"));
+}
+
+
+{
+    let url = "hello   world";
+url = url.replaceAll(" ", "-");
+
+console.log(url);
+}
+
+// most importance for Api
+
+// split convert string to array
+{
+    let tags = "js,react,node";
+
+let arr = tags.split(",");
+console.log(arr);
+console.log(arr[2]);
+
+}
+
+
+// join() actual use for convert array to string
+
+{
+    let tags = ["js,react,node"];
+
+let arr = tags.join();
+console.log(arr);
+
+
+let letters = ["H","E","L","L","O"];
+
+let word = letters.join("");
+
+console.log(word);
+
+}
