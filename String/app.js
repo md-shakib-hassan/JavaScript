@@ -67,21 +67,21 @@ console.log(length);
 {
     let text = "Apple, Banana, Kiwi";
     let part = text.slice(7, 13);
-    console.log("using slice : "+part);
+    console.log("using slice : " + part);
 }
 
 {
     let text = "Apple, Banana, Kiwi";
-let part = text.slice(7);
-console.log("using slice : "+part);
+    let part = text.slice(7);
+    console.log("using slice : " + part);
 }
 
 // If a parameter is negative, the position is counted from the end of the string:
 
 {
     let text = "Apple, Banana, Kiwi";
-let part = text.slice(-12);
- console.log("using slice : "+part);
+    let part = text.slice(-12);
+    console.log("using slice : " + part);
 
 }
 
@@ -89,10 +89,10 @@ let part = text.slice(-12);
 
 {
     let str = "Apple, Banana, Kiwi";
-let part = str.substring(7, 13);
- console.log("uisng subString: "+part);
+    let part = str.substring(7, 13);
+    console.log("uisng subString: " + part);
 
- // also we can used substr;
+    // also we can used substr;
 }
 
 // convert string into uppercase and lowercase
@@ -101,7 +101,56 @@ let part = str.substring(7, 13);
     let text = "hello vai sokol.";
     let text2 = "TaR POR ki obOstha.";
 
-    console.log("Convert into upper: "+text.toUpperCase());
-    console.log("Conver into lower: "+text2.toLowerCase());
+    console.log("Convert into upper: " + text.toUpperCase());
+    console.log("Conver into lower: " + text2.toLowerCase());
 
 }
+
+// and most use function in this (trim())
+
+// here trim() used to remove spaces
+{
+    let email = "   USER@gmail.com";
+    email = email.trim().toLowerCase();
+
+    console.log(email);
+}
+
+
+//  here seaching and checking text in string;
+// include used for find that character in string that;
+
+{
+    let email = "user@gmail.com";
+
+    console.log(email.includes("@"));
+}
+
+// very interesting for developer and my upcoming project 
+// startWith() and endWith();
+
+{
+    let text = "Shakib is a normal guy.";
+    console.log("Result: " + text.startsWith("S"));
+
+    console.log("Result : " + text.endsWith("b"));
+
+}
+
+//  find position
+
+{
+    let email = "user@gmail.com";
+
+    console.log(email.indexOf("a"));
+}
+
+// lastIndexof()
+{
+    let sentence = "I like JavaScript and I like coding";
+
+    let result = sentence.lastIndexOf("e");
+
+    console.log(result);
+}
+
