@@ -85,3 +85,23 @@ let part = text.slice(-12);
 
 }
 
+// similar to slice() here substring define a string to substring 
+
+{
+    let str = "Apple, Banana, Kiwi";
+let part = str.substring(7, 13);
+ console.log("uisng subString: "+part);
+
+ // also we can used substr;
+}
+
+// convert string into uppercase and lowercase
+
+{
+    let text = "hello vai sokol.";
+    let text2 = "TaR POR ki obOstha.";
+
+    console.log("Convert into upper: "+text.toUpperCase());
+    console.log("Conver into lower: "+text2.toLowerCase());
+
+}
