@@ -119,4 +119,8 @@ console.log("Array Now:", array3);
 
     const myChildren = myGirls.concat(myBoys,number);
     console.log("Merging array: "+myChildren);
+
+    console.log("Find out that array or not using Array.isArray(): "+Array.isArray(number));
 }
+
+// 
