@@ -17,3 +17,4 @@ console.log("ROUND integer number : "+Math.round(4.2));
 
 
 // need to use  random()
+
