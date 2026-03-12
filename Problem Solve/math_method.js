@@ -14,3 +14,6 @@ console.log("Always provide positive number: "+Math.abs(5-10));
 console.log("ROUND integer number : "+Math.round(4.2));
 
 // NEED TO see floor and celiing
+
+
+// need to use  random()
