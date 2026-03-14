@@ -19,9 +19,6 @@ console.log("output: ",greeding.innerText);
 // getElementSByTagName()
 
 
-const design =document.getElementsByTagName('section');
-
-design.style.backgroundColor='blue';
 
 
 
