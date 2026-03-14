@@ -19,5 +19,18 @@ for(const item of allPara){
 }
 
 
+// here change text of p all selector what i selected
 
+
+// for(const item of allPara){
+//     item.innerText = "sdjfkskdfh";
+// }
+
+for(const item of allPara){
+    item.innerHTML="shakib";
+}
+
+for(const item of allPara){
+    item.textContent="Director of Engineering."
+}
 
