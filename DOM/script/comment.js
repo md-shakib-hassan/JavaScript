@@ -9,8 +9,22 @@ for(const item of deco){
 }
 
 document.getElementById('btn').addEventListener('click',function(){
-    const comment = document.getElementById('comment-here');
-    const uploadComment = document.getElementsByClassName('comment');
+    
+    const uploadComment = document.getElementById('comment-here');
+   
+    const newComment = uploadComment.value;
+
+    const parent = document.getElementById('parent');
+    
+    const item = document.createElement('p');
+    item.innerText = newComment;
+    
+     item.classList.add('comment');
+    parent.appendChild(item);
+    
+
+
+
 
     // here upload a p tag which i comment 
 
