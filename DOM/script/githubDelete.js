@@ -12,6 +12,7 @@ input.addEventListener('keyup',function(event){
         
     }else{
         console.log("Something Wrong.")
+        btn.setAttribute('disabled',true)
     }
     
 })
