@@ -11,6 +11,25 @@ console.log("Name :"+obj.name);
 
 console.log("Finacial: "+obj.balance);
 
+// Added Enties , delete, seal, key,value, freeze
+
+console.log(Object.keys(obj));
+console.log(Object.values(obj));
+console.log(Object.entries(obj));
+
+
+// Object.seal(person) that provide a static object can't add new property 
+
+Object.seal(obj);
+
+// freeze can't property change and can't value change in this keyword
+
+
+Object.freeze(obj);
+
+
+
+
 
 // assign object properties and value out of object 
 const person ={};
@@ -97,3 +116,21 @@ console.log(text);
 
 
 
+//  for object For in && For of loop 
+
+{
+  const obj={
+    name:"hero alom",
+    age:69,
+    pro:"natok",
+
+  }
+
+  for(const key in obj){
+      console.log(`key: ${key} & value : ${obj[key]}`);
+  }
+
+  for (const [key,value] of Object.entries(obj)){
+    console.log(`key: ${key} & value: ${value}`);
+  }
+}
