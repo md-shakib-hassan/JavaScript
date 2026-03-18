@@ -17,8 +17,6 @@ input.addEventListener('keyup',function(event){
     
 })
 
-
-
 // succesfully complete
 
 // input.addEventListener('keydown',function(event){
