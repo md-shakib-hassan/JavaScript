@@ -19,9 +19,10 @@ const dept = new Array("ict", "cste", "Se", "phar");
 
 console.log("dept: " + dept[3]);
 
-console.log("Converting array to String :"+cars.toString); that was wrong
+console.log("Converting array to String :"+cars.toString); 
+//  that was wrong
 const list = dept.toString();
-document.getElementsByClassName("demo").innerHTML = list;
+// document.getElementsByClassName("demo").innerHTML = list;
 
 // console.log(list);
 //  there are some properties of length and sorting 

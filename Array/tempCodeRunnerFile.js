@@ -1,0 +1,1 @@
+document.getElementsByClassName("demo").innerHTML = list;

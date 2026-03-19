@@ -13,3 +13,15 @@
     console.log(name);
     
 }
+
+// Option changing with question 
+
+{
+    const user = {
+    name: "Shakib",
+    age:23,
+    
+};
+
+console.log(user.address?.city); // undefined (no error) here if i don't give question mark that shows error include question marks that shows ( undefined )
+}
