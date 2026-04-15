@@ -8,6 +8,8 @@ const addtoCart =()=>{
 
     displayProduct(name,quantity);
 
+    cart(name,quantity);
+
     productName.value="";
     productQuantity.value="";
     
@@ -28,18 +30,14 @@ const displayProduct = (productName,productQuantity)=>{
 
 }
 
-const cart =(products)=>{
+const cart =(productName,productQuantity)=>{
+    
+    const item = {
+        name: productName,
+        quantity: productQuantity,
+    };
 
-    const product= JSON.stringify(products);
-
-     localStorage.setItem("cart",product);
-
-     const additem = localStorage.getItem(cart);
-
-     additem
-
-     console.log()
+    localStorage.setItem('cart',JSON.stringify(item));
 
     
-
 }
