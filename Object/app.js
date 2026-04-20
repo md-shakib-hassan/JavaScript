@@ -134,3 +134,18 @@ console.log(text);
     console.log(`key: ${key} & value: ${value}`);
   }
 }
+// using of keys and values 
+
+{
+  const obj = {
+        name:"shakib",
+        age:23,
+        dept:"Software",
+        Profession:"Engineer",
+
+    };
+    const keys = Object.keys(obj);
+    console.log(keys);
+    const values = Object.values(obj);
+    console.log(values);
+}
