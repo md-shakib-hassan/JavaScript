@@ -6,7 +6,7 @@
         Profession:"Engineer",
 
     };
-
+// here must use propety name use when destrubturing object 
     const {name,age,dept,Profession}=obj;
     console.log(dept);
     console.log(Profession);

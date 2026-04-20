@@ -20,3 +20,26 @@ const button2 = () => {
 const userHandle = (users)=>{
   console.log(users);
 }
+
+
+{
+  const person = {
+    name:"Shakib",
+    age:21,
+    id:[2,4,2,5,0,2,5],
+    family:{
+      fatherName:"Shohidul Islam",
+      motherName:"Shima Khatun",
+      brotherName:"Hasibul Rahman",
+    }
+    
+  }
+
+
+  const convertStringfy = JSON.stringify(person);
+
+  console.log(convertStringfy);
+   const intoObject = JSON.parse(convertStringfy);
+
+   console.log(intoObject);
+}
